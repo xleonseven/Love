@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>文章列表</title>
+		<link rel="stylesheet" href="css/new_file.css" />
+	</head>
+	<body>
+		<header class="heads">
+			<a href="huiyuanCenters.html" class="back-btn"></a>
+			文章列表
+		</header>
+		<!---->
+		<div class="sec-02">
+			<table class="lef-tab">
+				<tr>
+					<td><img src="images/会员中心_03.png"  /> </td>
+					<td>会员资料</td> 
+				</tr>
+			</table>
+			<a href="article.html">
+				<table class="rig-tab">
+					<tr>
+						<td>发表文章</td> 
+						<a href="article.html"><td><img src="images/会员中心_05.png"  /> </td></a>
+					</tr>
+				</table>
+			</a>
+		</div>
+		
+		<!---->
+        <div class="news-div">
+        	<table>
+        		<tr><th  style="border-left: none;">上传内容</th>
+        			<th style="border-right: none;width: 55px;">审核状态</th> </tr>
+        		<tr>
+        			<td style="border-left: none;">
+        				<a href="#"><div>
+        				<span class="cg">酒泉彩民喜获583万大奖,酒泉彩民喜获583万大奖  </span><span class="data-sp">2017-05-04</span>
+        				</div></a>
+        			</td>
+        			<td class="shenhezhong tdcenter" style="border-right: none;">审核中</td>
+        		</tr>
+        		<tr>
+        			<td style="border-left: none;">
+        				<a href="#"><div>
+        				<span class="cg">酒泉彩民喜获583万大奖酒泉彩民喜获583万大奖 </span><span class="data-sp">2017-05-04</span>
+        				</div></a>
+        			</td>
+        			<td class="yifabiao tdcenter" style="border-right: none;">未通过</td>  
+        		</tr>
+        		<tr>
+        			<td style="border-left: none;">
+        				<a href="#"><div>
+        				<span class="cg">酒泉彩民喜获583万大奖酒泉彩民喜获583万大奖 </span><span class="data-sp">2017-05-04</span>
+        				</div></a>
+        			</td>
+        			<td class="yifabiao tdcenter" style="border-right: none;">已发表</td>
+        		</tr>
+        		<tr>
+        			<td style="border-left: none;">
+        				<a href="#"><div>
+        				<span class="cg">酒泉彩民喜获583万大奖酒泉彩民喜获583万大奖 </span><span class="data-sp">2017-05-04</span>
+        				</div></a>
+        			</td>
+        			<td class="shenhezhong tdcenter" style="border-right: none;">审核中</td>
+        		</tr>
+        		<tr>
+        			<td style="border-left: none;">
+        				<a href="#"><div>
+        				<span class="cg">酒泉彩民喜获583万大奖酒泉彩民喜获583万大奖 </span><span class="data-sp">2017-05-04</span>
+        				</div></a>
+        			</td>
+        			<td class="shenhezhong tdcenter" style="border-right: none;">审核中</td>
+        		</tr>
+        		<tr>
+        			<td style="border-left: none;">
+        				<a href="#"><div>
+        				<span class="cg">酒泉彩民喜获583万大奖酒泉彩民喜获583万大奖 </span><span class="data-sp">2017-05-04</span>
+        				</div></a>
+        			</td>
+        			<td class="shenhezhong tdcenter" style="border-right: none;">审核中</td>
+        		</tr>
+        	</table>
+        </div>
+
+
+<script type="text/javascript" src="js/jquery3.min.js" ></script>
+
+<script>
+	$(document).ready(function(){
+		//cg
+		var strleng = $(".cg").length;
+		var win_widow = $(document).width();
+		if(win_widow<321){
+				for(var i = 0;i<strleng;i++){
+					var thisStr = $(".cg").eq(i).text();
+					if(thisStr.length>20){
+						$(".cg").eq(i).html(thisStr.substr(1,20)+'.....<br/>'   )
+					}
+				}
+		}else{
+				for(var i = 0;i<strleng;i++){
+					var thisStr = $(".cg").eq(i).text();
+					if(thisStr.length>26){
+						$(".cg").eq(i).html(thisStr.substr(1,26)+'.....<br/>'   )
+					}
+				}
+		}
+		
+		
+		//收条文章颜色
+$(".news-div td").first().addClass("firstRed")
+		
+		
+	})
+</script>
+
+		
+	</body>
+</html>

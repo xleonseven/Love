@@ -1,0 +1,103 @@
+*{padding: 0px;margin: 0px;list-style: none;font-family: "微软雅黑";}
+a{text-decoration:none;}
+a, a:link, a:hover, a:visited {text-decoration:none; color:#737171;}
+table{border-collapse: collapse;}
+
+.heads{height:60px; line-height: 60px;text-align: center;
+background-color: #e11b03;color:#ffffff;font-size: 26px;position: relative;}
+
+.sec-02{height: 55px;}
+.sec-02 table{height: 55px;margin-left: 6px;margin-right: 6px;}
+.sec-02 table img{width: 26px;}
+.sec-02 table tr td{ padding: 1px; vertical-align: middle;font-size: 1.1em;}
+.lef-tab{float: left;}
+.rig-tab{float: right;}
+.sec-02 a table{color: #e11b03;}
+
+.sec-03 table{width: 100%;}
+.sec-03 table img{width: 30px;}
+.sec-03 table tr td{ border: 1px solid #c9c9c9 ;padding: 10px 0px;}
+.sec-03 table tr td>div{padding-left: 3px;}
+.sec-03 table tr td>p{color: #e11b03;padding-left: 3px;}
+.sec-03 table table{width: auto;margin: 0 auto;}
+.sec-03 table table tr td{border: none;padding: 0px;}
+
+
+
+.sec-06 a img{width: 26px;}
+.sec-06 ul li{ padding: 10px 6px; border-bottom:1px solid #C9C9C9 ;}
+.sec-06 ul li a{display: block;background-image: url(../images/会员中心_20.png);
+background-position: right center;background-size: auto 26px;background-repeat: no-repeat;
+height: 30px;color: #000000;}
+.sec-06 ul li a img{float: left;}
+.sec-06 ul li a span{display:block;float: left;  margin-top: 5px;margin-left: 5px;}
+
+
+
+/**/
+.news-div{}
+.news-div table{width: 100%; }
+.news-div table tr td{text-align: center; border: 1px solid #C9C9C9;padding: 6px 0px;
+font-size: 0.8em;color: #6c6a6a;text-align: left;padding-left: 2px; }
+.news-div table tr th{text-align: center;border: 1px solid #C9C9C9; padding: 6px 0px;
+border-top-width: 2px ;color: #6c6a6a;font-size: 0.8em; }
+
+
+.news-div table tr td span{ display: inline-block;padding-bottom: 2px;}
+.news-div table tr td.yifabiao{color: #037c03;}
+.news-div table tr td.shenhezhong{color: #e11b03;}
+
+/**/
+.form-all table{width: 100%;}
+.form-all table tr td{height: 35px;border-bottom: 1px solid #C9C9C9;color: #969696;}
+.redStar{color: #E11B03;padding: 0px 2px;padding-left: 5px;}
+.set-input{width: 95%;border: none;height: 100%;outline: none;}
+
+#bankSet_btn{width: 70px; padding-right: 15px; 
+background-image: url(../images/会员中心_20.png);
+background-repeat: no-repeat;background-position: right center;
+background-size: auto  20px; float: right;margin-right: 10px;}
+
+
+.tc-sec{ position: fixed;left: 0px;top: 0px;width: 100%;height: 100%;
+background-color:rgba(0,0,0,0.6) ;display: none;}
+.tc-sec>div{background-color: #FFFFFF;width: 100%;
+margin: 0 auto;position: absolute; top: 50%; margin-top: -200px;overflow: auto;height: 290px;}
+.tc-sec table{width: 100%;}
+.tc-sec table tr td{text-align: center;border-bottom: 1px solid #C9C9C9; padding: 8px 0px;}
+
+
+/**/
+.back-btn{display: block; position: absolute; height: 100%;width: 60px;left: 0px;top: 0px;
+background-image:url(../images/会员中心_29.png);background-position: center;
+background-repeat: no-repeat;background-size: auto 30px;/**/ 
+}
+
+/**/
+.addcard-sec{ margin-left: 10px;margin-right: 10px;margin-top: 18px;}
+.addcards-btn{ height: 39px;line-height: 39px;text-align: center;color: #FFFFFF;
+background-color: #E11B03;margin-top: 18px;}
+
+
+.addarc-sec{ margin-left: 10px; margin-right: 10px;margin-top: 10px;}
+.addarc-tab{width: 100%;}
+.addarc-tab tr td{padding-bottom: 15px;}
+.addarc-tab input{width: 100%;}
+.addarc-tab textarea{min-height: 260px;width: 100%;}
+.arc-tbn{ background: #E11B03;color: #FFFFFF;margin: 0px 5px;padding:3px 5px  ; }
+
+
+.data-sp{padding-left: 6px; }
+
+.news-div table tr td.tdcenter{text-align: center;padding-left: 0px;}
+.firstRed span{ color: #E11B03;}
+
+
+/*input*/
+.input_ss{ width:94%; background:#fff; padding: 0 3%;}
+.input_je{ width:100%; font-size:15px; color:#333; margin:2% 0; border-bottom:1px #d3d3d3 solid; padding-bottom:2%;}
+.input_je input{ width:74%; font-size:14px; padding-left:2%; height:30px; border:0; }
+.input_je select{ width:26%; font-size:14px; height:30px; border:0; }
+
+.addcards-btn{ height:39px;line-height: 39px;text-align: center;color: #FFFFFF;
+background-color: #E11B03;margin-top: 22px; border-radius:4px 4px 4px 4px;}
